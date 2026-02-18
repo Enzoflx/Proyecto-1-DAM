@@ -1,0 +1,80 @@
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #004488;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header nav {
+    margin-top: 5px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.9em;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.equipo {
+    margin-top: 20px;
+}
+
+.miembro {
+    border-top: 1px solid #eee;
+    padding: 10px 0;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
